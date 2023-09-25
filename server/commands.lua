@@ -19,8 +19,6 @@ lib.addCommand('saveall', {
     rwt.print(save and 'Tersimpan!')
 end)
 
-
-
 lib.addCommand('givecar', {
     help = 'Give Kendaraan ke Garasi',
     params = {

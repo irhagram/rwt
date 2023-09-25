@@ -52,8 +52,6 @@ if rwt.config.debug then
     RegisterNetEvent('rwt:joined', function()
         local src = source
         local identifier = GetPlayerIdentifierByType(src, rwt.config.identifier)
-        -- print('disini')
-    
         rwt.fungsi.buat(src)
     end)
 end
