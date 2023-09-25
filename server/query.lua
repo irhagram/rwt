@@ -8,4 +8,6 @@ rwt.query = {
     insertKendaraan = 'insert into kendaraan(spawn, owner, plate) values(?,?,?)',
     updateMetaKendaraan = 'update kendaraan set meta = ? where plate = ?',
     InOutGarage = 'update kendaraan set state = ? where plate = ?',
+    GetVehProps = 'select modifan from kendaraan where plate = ?',
+    SetVehProps = 'update kendaraan set modifan = ? where plate = ?',
 }
